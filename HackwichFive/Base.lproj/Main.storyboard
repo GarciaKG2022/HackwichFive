@@ -35,6 +35,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="64w-TM-seb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -42,6 +45,7 @@
                     </view>
                     <connections>
                         <outlet property="bottomLabel" destination="Q5j-rs-UIA" id="X1J-ww-Y7X"/>
+                        <outlet property="buttonLabel" destination="kyy-Fy-Wyd" id="Mh3-mX-zhf"/>
                         <outlet property="topLabel" destination="WpQ-U8-KY1" id="QZ5-5h-szT"/>
                     </connections>
                 </viewController>
