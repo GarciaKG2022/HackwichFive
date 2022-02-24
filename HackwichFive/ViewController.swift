@@ -49,5 +49,17 @@ class ViewController: UIViewController {
             print("button has been disabled")
             (buttonLabel!).isEnabled = false
         }
+//Problem Set One
+        
+        if self.currentIndex > favoriteFoodsArray.count
+        {
+            self.bottomLabel.text = favoriteFoodsArray[currentIndex]
+            buttonLabel.setTitle("Back", for: UIControl.State.normal)
+            currentIndex -= 1
+        }
+        else {
+            print("What does this button do")
+            (buttonLabel!).isEnabled = true
+        }
     }
 }
